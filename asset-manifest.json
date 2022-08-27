@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/personal_website/static/css/main.a0e79f0c.css",
+    "main.js": "/personal_website/static/js/main.a5b0712e.js",
+    "static/media/tenzie_UI.jpg": "/personal_website/static/media/tenzie_UI.489415f87e8ac8abb160.jpg",
+    "index.html": "/personal_website/index.html",
+    "main.a0e79f0c.css.map": "/personal_website/static/css/main.a0e79f0c.css.map",
+    "main.a5b0712e.js.map": "/personal_website/static/js/main.a5b0712e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a0e79f0c.css",
+    "static/js/main.a5b0712e.js"
+  ]
+}
