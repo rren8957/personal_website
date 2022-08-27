@@ -1,6 +1,8 @@
 import React from "react";
 import logo from "./img/logo.jpg"
 import tenzie_UI from "./img/tenzie_UI.jpg"
+import pollbuddy_UI from "./img/pollbuddy_UI.jpg"
+
 
 const Main = () => {
     return (
@@ -18,6 +20,9 @@ const Main = () => {
                 <div className="all-projects">
                     <a className="project-item" href="https://rren8957.github.io/tenzies-game/" target="_blank" rel="noreferrer noopener">
                         <img className="project-UI" src={tenzie_UI} alt="logo"/>                    
+                    </a>
+                    <a className="project-item" href="https://pollbuddy.app/" target="_blank" rel="noreferrer noopener">
+                        <img className="project-UI" src={pollbuddy_UI} alt="logo"/>                    
                     </a>
             </div>
             </div>
