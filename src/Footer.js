@@ -6,7 +6,7 @@ const Footer = () => {
     return (
         <div className="icon-links">
             <li>
-                <a href='https://www.linkedin.com/in/ruo-wen-ren-b664251b7/' target="_blank" rel="noreferrer noopener">{<FaGithub />}</a>
+                <a href='https://github.com/rren8957/personal_website' target="_blank" rel="noreferrer noopener">{<FaGithub />}</a>
             </li>
             <li>
                 <a href='https://www.linkedin.com/in/ruo-wen-ren-b664251b7/' target="_blank" rel="noreferrer noopener">{<FaLinkedin />}</a>

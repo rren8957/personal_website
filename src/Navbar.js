@@ -9,10 +9,7 @@ const Navbar = () => {
         <div className="links">
             <ul className="bar-links">
                 <li>
-                    <a href='https://github.com/' target="_blank" rel="noreferrer noopener">Resume</a>
-                </li>
-                <li>
-                    <a href='https://github.com/' target="_blank" rel="noreferrer noopener">Github</a>
+                    <a href='https://github.com/rren8957/personal_website' target="_blank" rel="noreferrer noopener">Github</a>
                 </li>
                 <li>
                     <a href='mailto:ruonren@gmail.com' >Contact</a>

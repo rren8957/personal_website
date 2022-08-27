@@ -8,7 +8,7 @@ const Main = () => {
             <div className="intro">
                 <div className="main-words">
                     <h2>Hello, I'm Ruo Wen Ren</h2>
-                    <h4>Feel free to check out some my personal projects below.</h4>
+                    <h4>Software engineer and student majoring in computer science at RPI. Feel free to check out some my personal projects below.</h4>
                 </div>
                 <img className="main-photo" src={logo} alt="logo"/>
             </div>
