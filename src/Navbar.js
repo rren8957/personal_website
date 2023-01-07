@@ -21,7 +21,8 @@ const Navbar = () => {
         <nav>
             <div className="nav-center">
                 <div className="nav-header">
-                    <img className="nav-icon" src={logo} alt="logo"/>                    <button className="nav-bar"
+                    <img className="nav-icon" src={logo} alt="logo"/>                   
+                     <button className="nav-bar"
                             onClick={() => setToggleBar(!toggleBar)}>
                         <FaBars />
                     </button>
