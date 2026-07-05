@@ -7,12 +7,17 @@ import acmas_UI from "./img/acmas_UI.jpg"
 
 
 const Main = () => {
+    const startDate = new Date(2023, 6, 1); // July 2023 (month is 0-indexed)
+    const currentDate = new Date();
+    const yearsOfExperience = (currentDate.getFullYear() - startDate.getFullYear()) - 
+        (currentDate.getMonth() < startDate.getMonth() ? 1 : 0);
+
     return (
         <div className="main">
             <div className="intro">
                 <div className="main-words">
                     <h2>Hello, I'm Ruo Wen Ren</h2>
-                    <h4>Software engineer and student majoring in computer science at RPI. Feel free to check out some my personal projects below.</h4>
+                    <h4>Full-stack engineer with {yearsOfExperience} years of experience. Feel free to check out some of my personal projects below.</h4>
                 </div>
                 <img className="main-photo" src={logo} alt="logo"/>
             </div>
